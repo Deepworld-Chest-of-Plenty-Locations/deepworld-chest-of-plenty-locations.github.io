@@ -13,7 +13,7 @@
   
   
   <!-- hojas de estilo principales -->
-  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" href="http://www.bacubacu.com/colresizable/css/main.css" />
   <script type="text/javascript"> lang = "english"; </script>
  
 </head>
@@ -40,7 +40,7 @@
 				
 					<!-- links ocultos que abren ventanas modales -->
 					<div id="links">
-						<a id="hlog" href="colResizable.png">changelog</a>
+						<a id="hlog" href="http://www.bacubacu.com/colresizable/colResizable.png">changelog</a>
 						<a id="hguestbook" href="https://github.com/alvaro-prieto/colResizable">github</a>
 						<a id="hmail" href="https://github.com/alvaro-prieto/colResizable">contact me</a>
 						<a id="hnpm" href="https://www.npmjs.com/package/colresizable">resize gridview td th npmjs.com</a>
@@ -49,7 +49,7 @@
 
 					<!-- cache para imagenes importantes -->
 					<div id="cache">
-						<img src="img/dotted.png" alt="cache">
+						<img src="http://www.bacubacu.com/colresizable/img/dotted.png" alt="cache">
 					</div>
 					
 					<h2>About this plugin</h2>
@@ -114,17 +114,17 @@
 					</br></br>
 					</p>
 <div class="code">
-<pre class="prettyprint">&lt;head&gt;
-  &lt;script src="js/jquery.js"&gt;&lt;/script&gt;
-  &lt;script src="js/colResizable.min.js"&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;	 
-  &lt;table width="100%" &gt;
-    &lt;tr&gt; &lt;th&gt; header &lt;/th&gt; &lt;th&gt; header &lt;/th&gt; &lt;/tr&gt;
-    &lt;tr&gt; &lt;td&gt; cell &lt;/td&gt; &lt;td&gt; cell &lt;/td&gt; &lt;/tr&gt;							
-    &lt;tr&gt; &lt;td&gt; cell &lt;/td&gt; &lt;td&gt; cell &lt;/td&gt; &lt;/tr&gt;							
-  &lt;/table&gt;	
-&lt;/body&gt;</pre>		
+<pre class="prettyprint"><head>
+  <script src="http://www.bacubacu.com/colresizable/js/jquery.js"></script>
+  <script src="http://www.bacubacu.com/colresizable/js/colResizable.min.js"></script>
+</head>
+<body>	 
+  <table width="100%">
+    <tr> <th> header </th> <th> header </th> </tr>
+    <tr> <td> cell </td> <td> cell </td> </tr>							
+    <tr> <td> cell </td> <td> cell </td> </tr>							
+  </table>	
+</body></pre>		
 </div>	
 	<br/>		
 <div class="code"><pre class="prettyprint">$(function(){
@@ -308,7 +308,7 @@ When set to <i>true</i> it aims to remove all previously added enhancements such
 
  $("#sample").colResizable({
     liveDrag:true,
-    gripInnerHtml:"&lt;div class='grip'&gt;&lt;/div&gt;", 
+    gripInnerHtml:"<div class='grip'></div>", 
     draggingClass:"dragging", 
     onResize:onSampleResized
   });    
@@ -513,7 +513,7 @@ $("#overflowSample").colResizable({resizeMode:'overflow'});
 <div class="code"><pre class="prettyprint">$("#sample5").colResizable({
 	liveDrag:true, 
 	draggingClass:"rangeDrag", 
-	gripInnerHtml:"&lt;div class='rangeGrip'&gt;&lt;/div&gt;", 
+	gripInnerHtml:"<div class='rangeGrip'></div>", 
 	onResize:onSlide,
 	minWidth:8
 });	
