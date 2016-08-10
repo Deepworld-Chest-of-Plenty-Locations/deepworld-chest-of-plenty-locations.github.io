@@ -62,7 +62,7 @@ img {
 	background-image:url(http://www.bacubacu.com/colresizable/img/top.png)}
 
 .content {
-	width:910px;
+	width:940px;
 	top:251px;
 	bottom:0;
 	background-color:#0f1417}
@@ -298,7 +298,8 @@ td {
 	text-indent:5px;
 	color:#444;
 	border-bottom:1px solid #bbb;
-	border-left:1px solid #bbb}
+	border-left:1px solid #bbb;
+  text-align:center}
 
 td.left {
 	border-left:1px solid #2e638e}
